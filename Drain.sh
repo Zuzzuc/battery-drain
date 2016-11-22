@@ -1,4 +1,6 @@
 #!/bin/bash
+# License: The MIT License (MIT)
+# Author Zuzzuc https://github.com/Zuzzuc/
 # If $2 is "", safe mode will be on. If it is 0, safe mode will be deactivated.
 # If safe mode is off the processes will not be able to terminate, unless a SIGKILL(9) is sent to each and every one
 mode=-1
