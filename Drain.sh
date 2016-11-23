@@ -33,7 +33,7 @@ else
 fi
 c=0;
 while [ $c -le $launch ];do
-	nohup yes >/dev/null >/dev/null 2>&1 &
+	nohup yes >/dev/null 2>&1 &
 	ATKL $!
 	c=$((c+1))
 done
