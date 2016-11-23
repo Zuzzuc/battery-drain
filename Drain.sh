@@ -18,7 +18,7 @@ s_e(){
 if [ "$mode" != "0" ];then
 	trap "{ s_e ;}" 0 1 2 3 13 15
 fi
-def_launch=5
+def_launch=4
 launch=-1
 stc=0
 s_t=$$
